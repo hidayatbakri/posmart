@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>POSmart - Tidak ada koneksi</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+        <style>
+            @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&family=Titillium+Web:wght@400;600;700&display=swap");
+            * {
+                font-family: "Poppins", sans-serif;
+            }
+            .title {
+                font-family: "Titillium Web", sans-serif;
+            }
+
+            .content {
+                max-width: 500px;
+                margin: auto;
+                height: 100vh;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="content">
+            <h1 class="title fw-bold pt-5">Tidak ada koneksi</h1>
+            <p class="pt-2 text-secondary">
+                Coba periksa koneksi internet anda, anda tidak dapat mengirim
+                request ke server karena anda
+                <span class="text-danger">offline</span>.
+            </p>
+            <img
+                src="./off.png"
+                alt="offline"
+                class="w-100"
+                style="object-fit: cover"
+            />
+            <div class="d-flex justify-content-center mt-3">
+                <a href="/" class="btn btn-primary px-5 py-2">Coba lagi</a>
+            </div>
+        </div>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
